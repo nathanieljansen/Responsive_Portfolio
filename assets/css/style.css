@@ -1,0 +1,180 @@
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:hover {
+    color: black
+}
+
+.mainHeader {
+    background-color: white;
+    text-align: center;
+    top: 0px;
+    border-bottom: #777777 solid 5px;
+    height: 99px;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header {
+    float: left;
+    background-color: #b1aea7;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.nav {
+    float: right;
+    padding: 20px;
+    color: #2f300e;
+}
+
+.picture {
+    float: left;
+    width: 120px;
+    height: 150px;
+    margin-right: 15px;
+}
+
+.aboutMe, .contactMe, .portfolioMe {
+    clear: both;
+    float: left;
+    width: 650px;
+    background: white;
+    padding: 10px;
+    border: #777777 solid 1px;
+    margin-bottom: 20px;
+}
+
+.about, .contact, .portfolio {
+    color: #b1aea7;
+    border-bottom: solid #777777 2px;
+    padding: 9px;
+}
+
+p {
+    color: #777777;
+}
+
+.connect {
+    width: 240px;
+    float: right;
+    background: white;
+    align-content: center;
+    padding: 20px;
+    color: #b1aea7;
+    text-align: center;
+    border: #777777 solid .125px;
+}
+
+.connectMe {
+    border-bottom: solid #777777 2px;
+    padding: 5px
+}
+
+.gitPic {
+    height: 40px;
+    width: 40px;
+}
+
+.linkPic {
+    height: 40px;
+    width: 40px;
+}
+
+.stackPic {
+    height: 40px;
+    width: 40px;
+}
+
+footer {
+    clear: both;
+    position: static;
+    bottom: 0px;
+    margin-top: 80px;
+    background-color: white;
+    text-align: center;
+    border-top: #777777 5px solid;
+    width: 960px;
+    height: 40px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #777777;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.coming1 {
+    text-align: center;
+    float: left;
+    width: 150px;
+    border: solid #b1aea7 55px;
+    padding: 2px;
+    background: #b1aea7;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.coming2 {
+    text-align: center;
+    float: right;
+    width: 150px;
+    border: solid #b1aea7 55px;
+    padding: 2px;
+    background: #b1aea7;
+    color: white;
+}
+
+.coming3 {
+    text-align: center;
+    clear: both;
+    width: 150px;
+    float: left;
+    border: solid #b1aea7 55px;
+    padding: 2px;
+    background: #b1aea7;
+    color: white;
+}
+
+.coming4 {
+    text-align: center;
+    float: right;
+    width: 150px;
+    border: solid #b1aea7 55px;
+    padding: 2px;
+    background: #b1aea7;
+    color: white;
+}
