@@ -182,6 +182,12 @@ input[type=submit]:hover {
     }
 }
 
+@media screen and (max-width: 953px) {
+    .connect {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .mainContainer {
         width: 90%;
@@ -222,7 +228,7 @@ input[type=submit]:hover {
         width: 15%;
     }
     .connect {
-        width: 90%;
+        width: 89%;
     }
     .about {
         text-align: center;
