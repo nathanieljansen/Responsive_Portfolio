@@ -1,6 +1,4 @@
-a,
-a:link,
-a:visited {
+a, a:link, a:visited {
     text-decoration: none;
     color: #777777;
 }
@@ -20,7 +18,6 @@ a:hover {
 body {
     width: 960px;
     margin: 0 auto 0 auto;
-    padding: 20px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -104,7 +101,7 @@ footer {
     background-color: white;
     text-align: center;
     border-top: #777777 5px solid;
-    width: 960px;
+    width: 100%;
     height: 40px;
 }
 
@@ -177,4 +174,54 @@ input[type=submit]:hover {
     padding: 2px;
     background: #b1aea7;
     color: white;
+}
+
+@media screen and (max-width: 980px) {
+    .mainContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainContainer {
+        width: 90%;
+    }
+    .aboutMe {
+        width: 97%;
+        text-align: center;
+        align-content: center;
+    }
+    .nav {
+        width: 94%;
+        text-align: center;
+        align-content: center;
+    }
+    .connect {
+        width: 94%;
+    }
+    .about {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .mainContainer {
+        width: 85%;
+    }
+    .aboutMe {
+        width: 96%;
+        text-align: center;
+        align-content: center;
+    }
+    .nav {
+        width: 92%;
+        text-align: center;
+        align-content: center;
+    }
+    .connect {
+        width: 93%;
+    }
+    .about {
+        text-align: center;
+    }
 }
